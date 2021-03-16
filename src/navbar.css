@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;800&family=Playfair+Display&display=swap');
+
+.logo {
+  font-family: 'Playfair Display', serif;
+}
+
 .links {
   margin-right: 2rem;
+}
+
+.image-container {
+  padding-bottom: 2rem;
+}
+
+.hero-text {
+  font-family: 'Assistant', sans-serif;
+}
+
+.hero-button {
+  position: relative;
+  bottom: 1rem;
+  padding: 1rem;
+  color: black;
+}
+
+.border {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
