@@ -7,6 +7,8 @@ import './App.css'
 import './navbar.css'
 import topimage from './images/top-image5.jpg'
 import bottomimage from './images/top-image3.jpg'
+import NewRelease from './components/NewRelease'
+
 function App() {
 
   const { fetchAllCollections, fetchCollection, products } = useContext(ShopContext)
@@ -58,6 +60,7 @@ function App() {
       <Box>
 
       </Box>
+      <NewRelease />
       <Switch>
         <Route path="/" exact>
         </Route>

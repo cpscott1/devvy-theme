@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;800&family=Playfair+Display&display=swap');
+
+.new-release {
+  width: 45vw;
+  margin: 0 auto;
+}
+
+.dotted {
+  border-top: 2px dotted black;
+  margin-top: .3vw;
+  margin-left: .3vw;
+  width: 100%;
+}
+
+.new-header {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 800;
+  font-size: 1.5vw;
+}
+
+.shoe-grid {
+  width: 45vw;
+  margin: 0 auto;
+}
+
+.collection-image-container {
+  background: #F3F4F6;
+  padding-top: 5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.collection-title {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.collection-price {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: .2rem;
+}
